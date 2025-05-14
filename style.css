@@ -93,8 +93,12 @@ input:focus {
     border-radius: 6px;
     border: none;
     margin-top: 15px;
+    padding: 6px;
     cursor: pointer;
     transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+    color: white;
     
 }
 
