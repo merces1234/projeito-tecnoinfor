@@ -1,0 +1,122 @@
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    /*background-image:url(img/3409297.jpg) ; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+canvas {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+    position: relative;
+    z-index: 1;
+}
+
+.boas-vindas-log {
+    width: 100vh;
+}
+
+h1 {
+    color: #15d3da;
+    margin-left: 90px;
+    font-size: 46px;
+}
+
+h3 {
+    color: #15d3da;
+    font-size: 25px;
+}
+
+.logo-form {
+    width: 100px;
+    position: relative;
+    top: 35px;
+    left: 10px;
+    margin-right: 250px;   
+}
+
+h4 {
+    position: relative;
+    left: 15px;
+    top: 10px;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+} 
+
+.TECNOINFOR {
+    left: 135px;
+    color: #15d3da;
+    font-size: 30px;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+form {
+    width: 450px;
+    height: 550px;
+    position: relative;
+    top: -150px;
+    left: -60px;
+    background-color: #24407c9d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 100PX;
+    border-radius: 30px;
+}
+
+input {
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 8px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #00f7ff;
+    box-shadow: 0 0 8px 2px #00f7ff;
+}
+
+.ACESSAR {
+    background-color: #118bdd;
+    height: 30px;
+    width: 250px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 15px;
+    padding: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.ACESSAR:hover {
+    background-color: #00477D;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 2px white;
+}
+
