@@ -18,7 +18,7 @@ canvas {
   position: fixed;
   top: 0;
   left: 0;
-  
+
 }
 
 .conteiner {
@@ -120,3 +120,24 @@ input:focus {
     text-shadow: 0 0 2px white;
 }
 
+@media (max-width: 1058px) {
+ 
+
+.boas-vindas-log {
+    display: none;
+}
+
+#loginForm {
+    max-width: 300px;
+    padding: 15px;
+    margin-left: 120px;
+    height: 100vw;
+}
+
+.logo-form {
+    position: relative;
+    width: 70px;
+    margin-left: 7px;
+}
+
+}
